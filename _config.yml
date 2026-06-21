@@ -17,7 +17,7 @@ title: Henrique Freire # o título principal
 tagline: Téc. Radiologia | Notas técnicas, estágios e projetos # subtítulo
 
 description: >- # usado pelo SEO meta e pelo feed atom
-  Portfólio e blog de estudos de Henrique Freire, técnico em radiologia em
+  Meu portfólio e blog de estudos como técnico em radiologia em
   formação. Anotações técnicas, relatos de estágio e projetos práticos.
 
 # Preencha com o protocolo e o hostname do seu site.
@@ -33,14 +33,14 @@ twitter:
 social:
   # Nome completo, aparece como autor padrão dos posts e copyright no rodapé.
   name: Henrique Freire
-  email: SEU_EMAIL_AQUI@dominio.com # TODO: trocar pelo seu e-mail real
+  email: henriquefreire@outlook.com.br # TODO: trocar pelo seu e-mail real
   fediverse_handle:
   links:
     # O primeiro link é o que aparece como link do copyright no rodapé.
     - https://github.com/henriquefreire
     # TODO: decidir e preencher — perfil de dev já existente ou um dedicado
     # à área de radiologia, pra não misturar os algoritmos/audiências.
-    - https://www.linkedin.com/in/LINKEDIN_A_DEFINIR
+    - https://www.linkedin.com/in/henrique-tech
     # - https://www.facebook.com/username
 
 # Site Verification Settings
