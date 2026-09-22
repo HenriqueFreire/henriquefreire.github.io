@@ -40,7 +40,7 @@ social:
     - https://github.com/henriquefreire
     # TODO: decidir e preencher — perfil de dev já existente ou um dedicado
     # à área de radiologia, pra não misturar os algoritmos/audiências.
-    - https://www.linkedin.com/in/henrique-tech
+    - https://www.linkedin.com/in/henrique-radiologia
     # - https://www.facebook.com/username
 
 # Site Verification Settings
@@ -77,10 +77,11 @@ pageviews:
 
 theme_mode: # [light | dark] — vazio segue o tema do sistema
 
-cdn: "https://chirpy-img.netlify.app"
+# cdn: "https://chirpy-img.netlify.app"
+cdn: ""
 
-# avatar na barra lateral — troque pela sua foto depois
-avatar: "/commons/avatar.jpg"
+# avatar na barra lateral (coloque sua imagem em assets/img/avatar.jpg ou use URL externa como GitHub)
+avatar: "https://github.com/henriquefreire.png"
 
 social_preview_image:
 
