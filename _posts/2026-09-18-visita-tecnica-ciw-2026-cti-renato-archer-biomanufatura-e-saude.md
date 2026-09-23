@@ -1,9 +1,9 @@
 ---
-title: "Visita Técnica — Campinas Innovation Week (CIW 2026): A Revolução do InVesalius, Biomanufatura 3D do CTI Renato Archer e o Futuro da Radiologia"
+title: "Campinas Innovation Week (CIW 2026): A Revolução do InVesalius, Biomanufatura 3D do CTI Renato Archer e a Interseção com a Radiologia"
 date: 2026-09-18 10:00:00 -0300
-categories: [Visitas Técnicas, Inovação e Tecnologia]
+categories: [Inovação e Tecnologia, Experiências]
 tags: [radiologia, ciw 2026, cti renato archer, promed, invesalius, biomanufatura, impressao 3d medica, tomografia computadorizada, ressonancia magnetica, biomodelos, proteses, sus, python, open source, senac]
-description: "Estudo aprofundado a partir do Campinas Innovation Week (CIW 2026): a interseção entre engenharia de software em Python e diagnóstico por imagem através do software livre InVesalius (CTI Renato Archer/ProMED), convertendo exames DICOM de TC e RM em biomodelos e próteses cirúrgicas para o SUS."
+description: "Um relato a partir do Campinas Innovation Week (CIW 2026): a interseção entre engenharia de software em Python e diagnóstico por imagem através do software livre InVesalius (CTI Renato Archer/ProMED), convertendo exames DICOM de TC e RM em biomodelos e próteses cirúrgicas para o SUS."
 mermaid: true
 math: true
 image:
@@ -12,11 +12,13 @@ image:
 ---
 
 ![Biomodelos anatômicos tridimensionais desenvolvidos pelo CTI Renato Archer expostos no CIW 2026](/assets/img/posts/ciw-2026-cti-renato-archer-biomanufatura.jpg)
-*Registro de visita técnica no CIW 2026: biomodelos anatômicos de tórax, coluna vertebral e estruturas craniofaciais impressos a partir de tomografias computadorizadas.*
+*Registro no CIW 2026: biomodelos anatômicos de tórax, coluna vertebral e estruturas craniofaciais impressos a partir de tomografias computadorizadas.*
 
-Durante o **Campinas Innovation Week (CIW 2026)**, realizado no histórico Pátio Ferroviário de Campinas/SP, vivenciei um daqueles momentos raros em que duas áreas aparentemente distintas da minha trajetória profissional se conectaram com perfeita clareza: a **Engenharia de Software** e a **Radiologia Médica**.
+Como desenvolvedor de software aficionado por tecnologia e código, eu simplesmente não podia deixar de acompanhar a **Campinas Innovation Week (CIW 2026)**, realizada no histórico Pátio Ferroviário de Campinas/SP.
 
-Em meio a discussões sobre inteligência artificial e robótica, o estande do **CTI Renato Archer (Centro de Tecnologia da Informação Renato Archer — MCTI)** apresentou o impacto do **Programa ProMED** e do software público brasileiro **InVesalius**.
+Havia dezenas de projetos incríveis espalhados pelos estandes de robótica e inteligência artificial, mas um deles me chamou a atenção mais do que todos os outros: o estande do **CTI Renato Archer (Centro de Tecnologia da Informação Renato Archer — MCTI)** apresentando o **Programa ProMED** e o software público brasileiro **InVesalius**.
+
+Ali vivenciei um daqueles momentos em que duas paixões da minha trajetória se encontraram com clareza total: o universo da **Engenharia de Software** e a formação na **Radiologia Médica**.
 
 Quando você atua na interseção entre tecnologia e saúde, a sua régua de impacto muda: cada linha de código e cada parâmetro de aquisição na sala de tomografia deixam de ser rotina operacional e passam a representar cuidado direto, precisão cirúrgica e vidas humanas.
 
