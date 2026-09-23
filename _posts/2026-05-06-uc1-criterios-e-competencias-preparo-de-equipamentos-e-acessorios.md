@@ -23,7 +23,7 @@ A **UC1 (Preparar equipamentos e acessórios para a realização de exames radio
 flowchart TD
     A["1. Acolhimento & Identificação<br/>(Dupla checagem + Anamnese)"] --> B["2. Higienização & Checagem da Sala<br/>(Assepsia + Travas + Colimador)"]
     B --> C["3. Seleção de Acessórios & RI<br/>(Chassi + Marcador D/E + Espumas)"]
-    C --> D["4. Calibração Técnica<br/>(Espessômetro + kV/mAs + DFOFI)"]
+    C --> D["4. Calibração Técnica<br/>(Espessômetro + kV/mAs + DFR)"]
     D --> E["5. Radioproteção & Disparo<br/>(EPIs + Colimação + Biombo)"]
 ```
 
@@ -63,7 +63,7 @@ flowchart TD
 * **Uso ou não de Grade Antidifusora (Bucky)**:
   * Estruturas com espessura **< 10 cm** (ex.: mãos, pés): disparo direto na mesa sem grade (reduz a dose de radiação).
   * Estruturas com espessura **≥ 10 cm** (ex.: crânio, coluna, abdome, pelve): uso obrigatório de grade (Bucky) para absorver o espalhamento Compton.
-* **Ajuste de Console**: Regular kV, mA, tempo (s), mAs e a Distância Foco-Receptor (**DFOFI**: 100 cm para rotinas gerais ou 180 cm para Tórax).
+* **Ajuste de Console**: Regular kV, mA, tempo (s), mAs e a Distância Foco-Receptor (**DFR**: 100 cm para rotinas gerais ou 180 cm para Tórax).
 
 ---
 
@@ -81,7 +81,7 @@ flowchart TD
 | :--- | :--- | :--- |
 | **Ambiente** | Assepsia + Travas | Sala limpa e freios travados antes da entrada do paciente. |
 | **Acessórios** | Chassi correto + Marcador D/E | Lateralidade identificada e alinhada ao campo. |
-| **Console** | kV, mAs e DFOFI | Parâmetros ajustados conforme a medição do espessômetro. |
+| **Console** | kV, mAs e DFR | Parâmetros ajustados conforme a medição do espessômetro. |
 | **Proteção** | Colimação + Biombo | Feixe colimado e operador 100% protegido no console. |
 
 > 📌 **Conclusão**: O cumprimento metódico desses critérios garante exames de padrão diagnóstico de excelência no primeiro disparo, eliminando repetições e honrando a segurança radiológica do paciente e do operador.
