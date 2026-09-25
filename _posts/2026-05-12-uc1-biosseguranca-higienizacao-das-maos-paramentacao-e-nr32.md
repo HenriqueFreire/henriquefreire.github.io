@@ -56,10 +56,10 @@ flowchart TD
 
 ---
 
-### O Passo a Passo dos 11 Movimentos da Lavagem das Mãos (Técnica Correta)
+### O Protocolo dos 11 Passos da Lavagem das Mãos (Técnica ANVISA/OMS)
 
-![Passo a passo dos movimentos da higienização das mãos](/assets/img/posts/uc1-passo-a-passo-lavagem-maos.jpg)
-*Figura 1: Sequência ilustrada dos movimentos essenciais da higienização simples e antisséptica das mãos (Fonte: Protocolo Institucional e Diretrizes ANVISA/OMS).*
+![Passo a passo dos 11 passos da higienização das mãos com água e sabonete](/assets/img/posts/uc1-passo-a-passo-lavagem-maos.jpg)
+*Figura 1: Sequência ilustrada do protocolo oficial de higienização das mãos com água e sabonete em 11 passos (Diretrizes ANVISA/OMS).*
 
 1. **Abrir a torneira** e molhar as mãos com água corrente (sem encostar na pia).
 2. **Aplicar sabonete líquido** suficiente para cobrir toda a superfície das mãos.
