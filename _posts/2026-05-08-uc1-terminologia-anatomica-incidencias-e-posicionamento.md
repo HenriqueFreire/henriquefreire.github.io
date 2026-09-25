@@ -18,7 +18,7 @@ Nesta aula fundamental da **UC1** no Senac, estruturamos o mapa conceitual compl
 
 ### 1. Posição Anatômica Universal e Planos Corporais
 
-Toda a descrição anatômica, nomenclatura de incidências e trajetórias do feixe parte de uma referencia padrão: a **Posição Anatômica Universal**.
+Toda a descrição anatômica, nomenclatura de incidências e trajetórias do feixe parte de uma referência padrão: a **Posição Anatômica Universal**.
 
 * **Descrição da Postura**: Indivíduo em bipedestação ereta (em pé), com o olhar direcionado horizontalmente para a frente, membros superiores estendidos ao longo do tronco com as **palmas das mãos voltadas para a frente (supinação)** e membros inferiores paralelos com os pés ligeiramente afastados.
 
@@ -113,7 +113,7 @@ flowchart TD
 #### B. Incidências Laterais (Perfil)
 
 Na incidência em perfil, o Raio Central atravessa o plano sagital transversalmente em ângulo reto ($90^\circ$ em relação ao plano frontal):
-* **Latero-lateral (Direito ou Esquerdo)**: O feixe atravessa o tronco, crânio ou abdome de um lado ao outro (denominado conforme o lado do paciente em contato com o detector — ex.: Tórax em Perfil Esquerdo para manter o ápice cardíaco colado ao filme).
+* **Latero-lateral (Direito ou Esquerdo)**: O feixe atravessa o tronco, crânio ou abdome de um lado ao outro. A denominação segue o lado do paciente em contato com o detector — ex.: **Tórax em Perfil Esquerdo**, onde o lado esquerdo fica adjacente ao receptor, reduzindo a **distância objeto-receptor** do coração e minimizando sua **magnificação geométrica** na imagem final.
 * **Mediolateral**: O Raio Central penetra na face medial (interna) e emerge na face lateral (externa) do membro.
 * **Lateromedial**: O Raio Central penetra na face lateral e emerge na face medial (ex.: rotina padrão para o Perfil de Tornozelo e Pé).
 
@@ -156,19 +156,20 @@ O Raio Central "roça" ou "toca" a superfície de uma estrutura curva sem atrave
 O posicionamento radiográfico exige orientações cinéticas precisas para manobras de rotina e avaliações de estresse ligamentar:
 
 ```mermaid
-flowchart LR
-    subgraph Tornozelo ["Manobras de Estresse Articular"]
-        E1["Eversão<br/>(Sola p/ FORA / Teste do Lig. Deltoide)"]
-        E2["Inversão<br/>(Sola p/ DENTRO / Teste dos Lig. Fibulares)"]
-    end
-    subgraph Planos ["Planos e Eixos"]
-        P1["Rotação<br/>(Giro ao redor do eixo longo)"]
-        P2["Inclinação<br/>(Flexão lateral do PMS)"]
-    end
-    subgraph Face ["Movimentos Especiais"]
-        M1["Protração<br/>(Avanço anterior da mandíbula)"]
-        M2["Retração<br/>(Recuo posterior da mandíbula)"]
-    end
+mindmap
+  root["🦴 Movimentos no Posicionamento Radiográfico"]
+    ("Tornozelo — Estresse Articular")
+      ["Eversão (Valgo)<br/>Sola p/ FORA → testa Lig. Deltoide"]
+      ["Inversão (Varo)<br/>Sola p/ DENTRO → testa Lig. Fibulares"]
+    ("Tronco / Cabeça — Planos e Eixos")
+      ["Rotação<br/>Giro ao redor do eixo longo"]
+      ["Inclinação<br/>Flexão lateral do PMS"]
+    ("Mandíbula — Movimentos Especiais")
+      ["Protração<br/>Avanço anterior"]
+      ["Retração<br/>Recuo posterior"]
+    ("Antebraço — Rotação Longitudinal")
+      ["Supinação<br/>Palma voltada para cima / frente"]
+      ["Pronação<br/>Palma voltada para baixo / trás"]
 ```
 
 #### A. Rotação vs. Inclinação
@@ -196,10 +197,13 @@ flowchart LR
 ---
 
 #### D. Pronação vs. Supinação
-* **Supinação**: Posição anatômica do antebraço onde a palma da mão está voltada para a frente (ou para cima), mantendo rádio e ulna paralelos sem sobreposição.
-* **Pronação**: Rotação medial do antebraço de modo que a palma da mão fique voltada para trás (ou para baixo), cruzando o rádio sobre a ulna no terço proximal.
+* **Supinação**: Posição anatômica do antebraço onde a palma da mão está voltada para a frente (ou para cima), mantendo rádio e ulna paralelos sem sobreposição. É a posição padrão para radiografias de **Antebraço AP** e **Mão PA**.
+* **Pronação**: Rotação medial do antebraço de modo que a palma da mão fique voltada para trás (ou para baixo), cruzando o rádio sobre a ulna no terço proximal. Necessária para verificar a posição do antebraço em **Antebraço PA** e para manobras de exposição do escafoide.
 
----
+> 💡 **Regra prática**: Toda radiografia de antebraço AP exige supinação completa — qualquer grau de pronação rotaciona o rádio sobre a ulna e distorce a articulação radioulnar distal na imagem.
+{: .prompt-tip }
+
+
 
 ### 6. As Regras de Ouro do Posicionamento Radiográfico (Bontrager)
 
@@ -214,3 +218,13 @@ Para que um exame tenha valor médico legal e clínico indiscutível, aplicamos 
 
 > 💡 **Conclusão**: Dominar a terminologia anatômica, a geometria do feixe e a mecânica do posicionamento é o que garante imagens diagnósticas no primeiro disparo — reduzindo repetições e aplicando com perfeição o princípio **ALARA**.
 {: .prompt-tip }
+
+---
+
+### 📚 Referências Bibliográficas
+
+1. **BONTRAGER, Kenneth L.; LAMPIGNANO, John P.** *Tratado de Posicionamento Radiográfico e Anatomia Associada*. 8. ed. Rio de Janeiro: Elsevier, 2015.
+2. **BUSHONG, Stewart C.** *Ciência Radiológica para Tecnólogos: Física, Biologia e Proteção*. 10. ed. Rio de Janeiro: Elsevier, 2017.
+3. **BIASOLI, Nair Schiavon.** *Radiologia — Técnicas Radiográficas*. 5. ed. São Paulo: Santos, 2009.
+4. **GRAY, Henry.** *Anatomia de Gray: A Base Anatômica da Prática Clínica*. 41. ed. Rio de Janeiro: Elsevier, 2017.
+5. **NOMENCLATURA ANATÔMICA INTERNACIONAL (NAI).** *Terminologia Anatômica*. São Paulo: Manole, 2001.
