@@ -36,6 +36,8 @@ flowchart TD
 3. **Plano Transversal (Horizontal ou Axial)**: Plano perpendicular tanto ao sagital quanto ao coronal, dividindo o corpo em porções **superior (cranial/cefálica)** e **inferior (caudal/podálica)**.
 4. **Plano Oblíquo**: Qualquer plano que passe através do corpo em um ângulo inclinado que não seja paralelo a nenhum dos três eixos ortogonais acima.
 
+![Planos anatômicos fundamentais no posicionamento radiográfico](/assets/img/posts/planos-anatomicos-radiologia.jpg)
+
 ---
 
 ### 2. Marcos Anatômicos de Superfície (Crânio, Face e Pescoço)
@@ -199,6 +201,8 @@ mindmap
 #### D. Pronação vs. Supinação
 * **Supinação**: Posição anatômica do antebraço onde a palma da mão está voltada para a frente (ou para cima), mantendo rádio e ulna paralelos sem sobreposição. É a posição padrão para radiografias de **Antebraço AP** e **Mão PA**.
 * **Pronação**: Rotação medial do antebraço de modo que a palma da mão fique voltada para trás (ou para baixo), cruzando o rádio sobre a ulna no terço proximal. Necessária para verificar a posição do antebraço em **Antebraço PA** e para manobras de exposição do escafoide.
+
+![Pronação versus Supinação do antebraço e articulações radioulnares](/assets/img/posts/pronacao-supinacao-antebraco.jpg)
 
 > 💡 **Regra prática**: Toda radiografia de antebraço AP exige supinação completa — qualquer grau de pronação rotaciona o rádio sobre a ulna e distorce a articulação radioulnar distal na imagem.
 {: .prompt-tip }
