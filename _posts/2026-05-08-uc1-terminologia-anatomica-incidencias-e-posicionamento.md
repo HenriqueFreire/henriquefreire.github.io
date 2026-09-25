@@ -68,9 +68,9 @@ Um dos erros conceituais mais comuns em provas de concursos e na rotina hospital
   * **Decúbito Ventral (Prono)**: Deitado de bruços, com a face anterior apoiada na mesa.
   * **Decúbito Lateral (Direito ou Esquerdo)**: Deitado sobre o lado correspondente do corpo.
   * **Ortopostático (Ortostático / Bipedestação)**: Paciente em pé, ereto.
-  * **Sedestação (Posição Sentada)**: Paciente sentado (em cadeira, banqueta ou na própria mesa de exames com tronco ereto a $90^\circ$). Postura padrão para radiografias de extremidades superiores (mão, punho, antebraço, cotovelo) e para pacientes debilitados que não conseguem manter a bipedestação ereta.
+  * **Sedestação (Posição Sentada)**: Paciente sentado (em cadeira, banqueta ou na própria mesa de exames com tronco ereto a 90°). Postura padrão para radiografias de extremidades superiores (mão, punho, antebraço, cotovelo) e para pacientes debilitados que não conseguem manter a bipedestação ereta.
   * **Trendelenburg**: Paciente em decúbito dorsal com o plano da mesa inclinado de modo que a cabeça fique mais baixa que os pés.
-  * **Fowler**: Paciente semissentado, com a cabeceira da mesa elevada entre $45^\circ$ e $60^\circ$.
+  * **Fowler**: Paciente semissentado, com a cabeceira da mesa elevada entre 45° e 60°.
   * **Sims (Posição Semiprona)**: Decúbito lateral oblíquo com a perna superior fletida, padrão para introdução de cânulas em exames contrastados (Enema Opaco).
 
 * **Incidência (Projeção Radiográfica)**: É o **vetor do feixe central de raios X (Raio Central — RC)** ao atravessar o corpo humano, do ponto de entrada até o ponto de emergência no receptor de imagem.
@@ -114,7 +114,7 @@ flowchart TD
 
 #### B. Incidências Laterais (Perfil)
 
-Na incidência em perfil, o Raio Central atravessa o plano sagital transversalmente em ângulo reto ($90^\circ$ em relação ao plano frontal):
+Na incidência em perfil, o Raio Central atravessa o plano sagital transversalmente em ângulo reto (90° em relação ao plano frontal):
 * **Latero-lateral (Direito ou Esquerdo)**: O feixe atravessa o tronco, crânio ou abdome de um lado ao outro. A denominação segue o lado do paciente em contato com o detector — ex.: **Tórax em Perfil Esquerdo**, onde o lado esquerdo fica adjacente ao receptor, reduzindo a **distância objeto-receptor** do coração e minimizando sua **magnificação geométrica** na imagem final.
 * **Mediolateral**: O Raio Central penetra na face medial (interna) e emerge na face lateral (externa) do membro.
 * **Lateromedial**: O Raio Central penetra na face lateral e emerge na face medial (ex.: rotina padrão para o Perfil de Tornozelo e Pé).
@@ -125,7 +125,7 @@ Na incidência em perfil, o Raio Central atravessa o plano sagital transversalme
 
 #### C. Incidências Oblíquas
 
-Uma incidência oblíqua é obtida quando o corpo ou segmento corporal é posicionado em um ângulo intermediário (tipicamente a **$45^\circ$**) entre uma projeção frontal e um perfil:
+Uma incidência oblíqua é obtida quando o corpo ou segmento corporal é posicionado em um ângulo intermediário (tipicamente a **45°**) entre uma projeção frontal e um perfil:
 * **Oblíqua com Rotação Medial (Interna)**: A face anterior da estrutura é girada medialmente em direção ao plano médio sagital do corpo.
 * **Oblíqua com Rotação Lateral (Externa)**: A face anterior da estrutura é rodada lateralmente para longe do plano médio sagital (ex.: Mão Oblíqua para visualização individualizada dos metacarpos e falanges).
 * **Oblíquas de Tronco**: Denominadas pela superfície e lado mais próximo do receptor:
@@ -138,9 +138,9 @@ Uma incidência oblíqua é obtida quando o corpo ou segmento corporal é posici
 
 #### D. Incidências Axiais e Semiaxiais
 
-Ocorrem quando o **Raio Central é deliberadamente angulado ao longo do eixo longitudinal** da estrutura anatômica (com angulação cefálica ou podálica $\ge 10^\circ$):
+Ocorrem quando o **Raio Central é deliberadamente angulado ao longo do eixo longitudinal** da estrutura anatômica (com angulação cefálica ou podálica ≥ 10°):
 * **Axial Superoinferior**: Muito empregada em articulações escapuloumerais e estudos axilares do ombro.
-* **AP Axial de Crânio (Método de Towne)**: O feixe central é angulado a $30^\circ$ caudal (em relação à LOM) ou $37^\circ$ caudal (em relação à LIOM) para desobstruir e projetar o forame magno e os ossos occipitais.
+* **AP Axial de Crânio (Método de Towne)**: O feixe central é angulado a 30° caudal (em relação à LOM) ou 37° caudal (em relação à LIOM) para desobstruir e projetar o forame magno e os ossos occipitais.
 * **Axial de Patela (Método de Settegast/Hughston)**: Feixe angulado através do sulco intercondilar para avaliação do espaço femoropatelar.
 
 ![Incidência axial e semiaxial](/assets/img/posts/incidencia-axial-semiaxial.jpg)
@@ -213,7 +213,7 @@ mindmap
 
 Para que um exame tenha valor médico legal e clínico indiscutível, aplicamos três princípios fundamentais da literatura clássica:
 
-1. **Princípio das Duas Incidências Ortogonais a $90^\circ$**:
+1. **Princípio das Duas Incidências Ortogonais a 90°**:
    * Uma única projeção bidimensional projeta estruturas sobrepostas e esconde fraturas alinhadas ao plano do feixe. Todo estudo radiográfico de rotina exige **no mínimo duas projeções em ângulos retos entre si (geralmente uma frontal AP/PA e um Perfil)**.
 2. **Princípio das Duas Articulações em Ossos Longos**:
    * Toda radiografia de ossos longos (antebraço, braço, perna, fêmur) deve **incluir obrigatoriamente as articulações proximal e distal** no mesmo filme ou receptor, evitando que luxações ou fraturas indiretas passem despercebidas (ex.: Fratura de Monteggia ou Galeazzi).
