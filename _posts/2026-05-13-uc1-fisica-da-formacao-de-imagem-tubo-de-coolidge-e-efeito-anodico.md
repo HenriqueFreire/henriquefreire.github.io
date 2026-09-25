@@ -49,23 +49,19 @@ Graças a isso, o operador pode controlar:
 O tubo de raios X opera como um diodo de alta potência dentro de uma carcaça de proteção plumbífera preenchida com óleo isolante e refrigerante:
 
 ```mermaid
-flowchart TD
-    subgraph Ampola["Ampola de Raios X (Invólucro a Vácuo)"]
-        subgraph Catodo["1. CATODO (-) Pólo Negativo"]
-            F1["Filamento Fino (Pequeno Foco)"]
-            F2["Filamento Grosso (Grande Foco)"]
-            F3["Capa Focalizadora de Molibdênio"]
-        end
-
-        subgraph Anodo["2. ÂNODO (+) Pólo Positivo"]
-            A1["Disco de Tungstênio / Rênio"]
-            A2["Haste de Molibdênio"]
-            A3["Rotor e Estator (Motor de Indução)"]
-        end
-
-        Catodo -->|Nuvem de Elétrons acelerados por DDP (kV)| Anodo
-        Anodo -->|99% Calor + 1% Raios X| Janela["Janela de Saída do Feixe Útil"]
-    end
+mindmap
+  root["🔬 Ampola de Raios X — Tubo de Coolidge"]
+    ("1. CATODO (-) — Fonte de Elétrons")
+      ["Filamento Fino → Pequeno Foco (0,6 mm)"]
+      ["Filamento Grosso → Grande Foco (1,2 mm)"]
+      ["Capa Focalizadora de Molibdênio (Focusing Cup)"]
+    ("2. ÂNODO (+) — Alvo e Dissipador"]
+      ["Pista Focal: Liga W 90% + Re 10%"]
+      ["Haste de Molibdênio (condução térmica)"]
+      ["Ânodo Giratório: 3.000–10.000 RPM via Estator"]
+    ("3. Janela de Saída")
+      ["Filtro de alumínio (remove fótons de baixa energia)"]
+      ["Feixe Útil → Colimador → Paciente"]
 ```
 
 ---
@@ -89,7 +85,7 @@ flowchart TD
 
 ## 3. O Rendimento Energético: O Grande Desafio da Termodinâmica
 
-Quando os elétrons acelerados colidem contra a pista de tungstênio do ânodo a velocidades de até metade da velocidade da luz, a conversão energética é drasticamente assimétrica:
+Quando os elétrons acelerados colidem contra a pista de tungstênio do ânodo a velocidades relativísticas da ordem de **50% a 65% da velocidade da luz** (variando com o kVp selecionado), a conversão energética é drasticamente assimétrica:
 
 $$\text{Energia Cinética Total} = \mathbf{99\% \text{ Calor (Agitação Térmica)}} + \mathbf{1\% \text{ Fótons de Raios X}}$$
 
@@ -105,11 +101,11 @@ Ao colidirem com o alvo de tungstênio, os elétrons incidentes produzem dois ti
 
 ```mermaid
 flowchart TD
-    E["Elétron Incidente de Alta Energia (kVp)"] --> B["1. Radiação de Frenagem (Bremsstrahlung)<br/><i>(~85% a 90% do feixe)</i>"]
-    E --> C["2. Radiação Característica<br/><i>(~10% a 15% do feixe acima de 69,5 kV)</i>"]
+    E["Elétron Incidente de Alta Energia (kVp)"] --> B["1. Radiação de Frenagem (Bremsstrahlung)<br/><i>(~80–90% do feixe — presente em qualquer kVp)</i>"]
+    E --> C["2. Radiação Característica<br/><i>(~10–20% do feixe — apenas acima de 70 kVp)</i>"]
 
     B --> B1["Desaceleração perto do núcleo atômico<br/>Espectro contínuo de energia (policromático)"]
-    C --> C1["Ejeção de elétron da camada K (ligação: 69,5 keV)<br/>Transição de camadas e emissão de fóton monoenergético"]
+    C --> C1["Ejeção de elétron da camada K (ligação: 69,5 keV)<br/>Transição de camadas → fóton monoenergético (57,4 keV)"]
 ```
 
 ---
@@ -172,7 +168,9 @@ flowchart LR
 
 ## 💡 Conclusão
 
-Compreender a física do tubo de Coolidge liberta o técnico da dependência cega de "tabelinhas pré-programadas". Ao entender a termodinâmica do ânodo, o limite dos pontos focais e o comportamento da radiação de frenagem e do efeito Heel, o profissional passa a operar a máquina com **domínio técnico absoluto, garantindo excelência diagnóstica com a menor dose possível**.
+Compreender a física do tubo de Coolidge liberta o técnico da dependência cega de "tabelinhas pré-programadas". Ao entender a termodinâmica do ânodo, o limite dos pontos focais e o comportamento da radiação de frenagem e do efeito Heel, o profissional passa a operar a máquina com **domínio técnico absoluto**.
+
+Essa compreensão é diretamente aplicada no princípio **ALARA** (*As Low As Reasonably Achievable*): escolher o foco correto evita repetições por falta de nitidez; calibrar o kVp e mAs adequados evita sub ou sobreexposição; e aplicar o Efeito Heel corretamente garante uniformidade de densidade na imagem **sem aumentar a dose ao paciente**. Em radiologia, física e proteção radiológica caminham sempre juntas.
 
 ---
 
