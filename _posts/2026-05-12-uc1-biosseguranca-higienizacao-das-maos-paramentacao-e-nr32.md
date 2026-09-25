@@ -10,9 +10,6 @@ image:
   alt: Paramentação correta com vestimenta de proteção radiológica plumbífera (avental de chumbo) em aula prática de laboratório
 ---
 
-![Paramentação correta com vestimenta de proteção plumbífera em aula prática de radiologia](/assets/img/posts/uc1-paramentacao-avental-chumbo.jpg)
-*Paramentação prática com vestimenta plumbífera completa durante aula no laboratório de radiologia do Senac Campinas.*
-
 No imaginário popular, o maior risco existente dentro de uma sala de raios X é a radiação ionizante. No entanto, na prática diária hospitalar e ambulatorial, o profissional das técnicas radiológicas convive com uma **dupla frente de risco**: o risco **físico** (da radiação) e o risco **biológico** (da contaminação cruzada por vírus, bactérias multirresistentes e fluidos corporais).
 
 Na **aula do dia 12 de maio de 2026 da UC1**, mergulhamos nos protocolos de biossegurança que transformam a teoria das normas regulamentadoras em procedimentos automáticos e salvaguardas de vida na rotina de exames.
@@ -61,7 +58,7 @@ flowchart TD
 
 ### O Passo a Passo dos 11 Movimentos da Lavagem das Mãos (Técnica Correta)
 
-![Passo a passo dos 7 movimentos da higienização das mãos](/assets/img/posts/uc1-passo-a-passo-lavagem-maos.jpg)
+![Passo a passo dos movimentos da higienização das mãos](/assets/img/posts/uc1-passo-a-passo-lavagem-maos.jpg)
 *Figura 1: Sequência ilustrada dos movimentos essenciais da higienização simples e antisséptica das mãos (Fonte: Protocolo Institucional e Diretrizes ANVISA/OMS).*
 
 1. **Abrir a torneira** e molhar as mãos com água corrente (sem encostar na pia).
@@ -109,17 +106,24 @@ A **NR-32 (Segurança e Saúde no Trabalho em Serviços de Saúde)**, emitida pe
 Além dos EPIs biológicos convencionais (máscara cirúrgica/N95, luvas e óculos de proteção), a radiologia exige a paramentação plumbífera para conter a radiação secundária (radiação espalhada por Efeito Compton):
 
 ```mermaid
-flowchart TD
-    subgraph EPIsPlumbiferos["Vestimentas de Proteção Radiológica"]
-        E1["Avental de Chumbo (Plumbífero)<br/>• Espessura: 0,25 mmPb a 0,50 mmPb<br/>• Protege tórax, abdômen e órgãos vitais"]
-        E2["Protetor de Tireoide<br/>• Espessura: 0,25 mmPb a 0,50 mmPb<br/>• Protege o epitélio glandular tireoidiano"]
-        E3["Protetor de Gônadas<br/>• Proteção testicular/ovariana contra efeitos genéticos"]
-        E4["Óculos Plumbíferos / Luvas Plumbíferas<br/>• Proteção do cristalino contra catarata e extremidades em escopia"]
-    end
+mindmap
+  root["🛡️ Vestimentas de Proteção Radiológica (EPIs Plumbíferos)"]
+    ("Avental Plumbífero")
+      ["Espessura: 0,25 mmPb a 0,50 mmPb"]
+      ["Protege tórax, abdômen e gônadas"]
+    ("Protetor de Tireoide")
+      ["Espessura: 0,25 mmPb a 0,50 mmPb"]
+      ["Protege o epitélio glandular tireoidiano"]
+    ("Protetor de Gônadas")
+      ["Proteção testicular e ovariana"]
+      ["Reduz risco de efeitos estocásticos genéticos"]
+    ("Óculos e Luvas Plumbíferas")
+      ["Óculos com vidro plumbífero → previne catarata"]
+      ["Luvas plumbíferas → intervenções sob escopia"]
 ```
 
-![Paramentação prática com colete e saia plumbífera no laboratório de radiologia](/assets/img/posts/uc1-paramentacao-avental-chumbo-colete-saia.jpg)
-*Figura 4: Demonstração prática do uso do avental plumbífero bipartido (colete e saia de chumbo com sobreposição frontal) no laboratório de radiologia do Senac.*
+![Equipamentos de proteção individual plumbíferos e suporte de armazenamento](/assets/img/posts/uc1-biosseguranca-epis.jpg)
+*Figura 4: Armazenamento correto de vestimentas plumbíferas suspensas em suporte específico, acompanhadas de protetor de tireoide e dosímetro pessoal (TLD/OSL).*
 
 ---
 
@@ -154,7 +158,7 @@ Entre a realização de um exame e outro, a sala de raios X deve passar pela des
 | Etapa | Ação Obrigatória do Técnico | Base Legal |
 | :---: | :--- | :---: |
 | **Antes do Atendimento** | Retirar adornos, prender cabelos, conferir calçado fechado e lavar as mãos. | NR-32 |
-| **Preparo da Sala** | Desinfetar tampo da mesa, estativa vertical e colocar papel descartável novo. | RDC 611 / ANVISA |
+| **Preparo da Sala** | Desinfetar tampo da mesa, estativa vertical e colocar papel descartável novo. | ANVISA / RDC 50 |
 | **Preparo dos EPIs** | Inspecionar visualmente aventais plumbíferos nos cabides e separar protetor de tireoide. | CNEN NN 3.01 |
 | **Durante o Atendimento** | Higienizar as mãos / aplicar álcool 70% antes do toque e após posicionar o paciente. | Protocolo OMS |
 | **Após o Atendimento** | Descartar lençol de papel, desinfetar superfícies e receptor de imagem com álcool 70%. | ANVISA |
